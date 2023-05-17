@@ -13,13 +13,16 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
  <body style='background-color:#f5f5f6;'>
- <nav class="nav justify-content-end">
-  <div class="container">
+ <nav class="navbar bg-body-tertiary">
+  <form class="container-fluid justify-content-start">
     <a class="navbar-brand" href="https://alraedah.sa/en/about-us/">
-      <img src="assets/image-asset.png
-" alt="Bootstrap" class='logo'>
+      <%= image_tag 'image-asset.png', class: 'logo'%>
+
     </a>
-  </div>
+  <button class="btn btn-outline-success me-2" type="button">Main button</button>
+  <button class="btn btn-outline-success me-2" type="button">Main button</button>
+
+  </form>
 </nav>
   <header class="container px-4 text-center">
     <a href="https://alraedah.sa/en/about-us/">
