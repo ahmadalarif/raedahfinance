@@ -1,3 +1,4 @@
+
 users = [
   { email: 'thomas@example.com', first_name: 'Thomas', last_name: 'Bush', admin: true, bio: 'Hey!' },
   { email: 'bear@example.com', first_name: 'Bear', last_name: 'Bush', admin: false, bio: 'Woof!' },
@@ -17,3 +18,4 @@ users.each do |user|
   )
   this_user.save
 end
+
